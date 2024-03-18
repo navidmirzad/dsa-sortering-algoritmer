@@ -1,6 +1,6 @@
 "use strict";
 
-// Insertion sorts
+// Insertion sorts = O(n^2)
 
 let array = [9, 1, 8, 2, 7, 3, 6, 5, 4];
 
@@ -23,5 +23,3 @@ function insertionSort(array) {
     array[j + 1] = temp;
   }
 }
-
-
